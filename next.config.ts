@@ -1,11 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  basePath: "/next_portfolio",
-  assetPrefix: '/next_portfolio/',
+// next.config.ts
+import { NextConfig } from 'next';
+
+const nextConfig: NextConfig = {
+  output: 'export',
   images: {
     unoptimized: true,
   },
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio/',
 };
 
 export default nextConfig;
