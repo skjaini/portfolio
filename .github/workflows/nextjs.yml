@@ -15,7 +15,6 @@ jobs:
           node-version: '18'
       - run: npm ci
       - run: npm run build
-      - run: touch out/.nojekyll
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
