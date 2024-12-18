@@ -4,12 +4,8 @@
   "private": true,
   "homepage": "https://skjaini.github.io/portfolio",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "next build && next export",
+    "deploy": "npm run build && gh-pages -d out"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
