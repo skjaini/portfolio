@@ -4,8 +4,11 @@
   "private": true,
   "homepage": "https://skjaini.github.io/portfolio",
   "scripts": {
-    "build": "next build && next export",
-    "deploy": "npm run build && gh-pages -d out"
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
