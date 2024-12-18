@@ -5,7 +5,6 @@
   "homepage": "https://skjaini.github.io/portfolio",
   "scripts": {
     "dev": "next dev --turbopack",
-    "export": "next export",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
