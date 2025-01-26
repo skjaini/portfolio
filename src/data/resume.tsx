@@ -119,7 +119,7 @@ export const DATA = {
       badges: [],
       location: "Santa Clara, CA",
       title: "Software Engineer",
-      logoUrl: "https://1000logos.net/wp-content/uploads/2023/01/Yahoo-logo-768x432.png,
+      logoUrl: "https://1000logos.net/wp-content/uploads/2023/01/Yahoo-logo-768x432.png",
       start: "2005",
       end: "2009",
       description:
