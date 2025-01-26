@@ -10,12 +10,8 @@ export const DATA = {
   description:
     "Software Engineer turned Product Manager. I love building things and helping people.",
   summary:
-    "* 7+ years of experience in leading various customer-centric data driven growth B2B and B2C SaaS product initiatives.
-     * 10+ years of hands-on engineering experience building web and mobile applications and web services.
-     * Proven track record for leading cross-functional teams and managing stakeholders leveraging first principles thinking for defining product strategy and developing multi-quarter roadmap.
-     * Proficiency in project management tools and design tools for creating mockups.
-     * Certified Scrum Product Owner (CSPO)",
-  avatarUrl: "/me.png",
+    "7+ years of experience in leading various customer-centric data driven growth B2B and B2C SaaS product initiatives.",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/C5103AQGHr95PDViCng/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516318313426?e=1743638400&v=beta&t=n_Na8ajuW_HoVKWrP_v-FaQodKmkJmPbYt-ACYCDDxk",
   skills: [
     "React",
     "Next.js",
